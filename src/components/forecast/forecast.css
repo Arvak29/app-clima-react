@@ -1,0 +1,83 @@
+.forecast {
+    margin-top: 50px;
+}
+
+.title-container{
+    margin: 1rem;
+}
+
+.title {
+    font-size: 23px;
+    font-weight: 700;
+    color: #EDEAE5;;
+    margin-bottom: 100px;
+}
+
+.daily-item {
+    background-color: #e7dfbb;
+    box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
+    border-radius: 1.6rem;
+    height: 40px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    padding: 5px 20px;
+}
+
+.daily-item label {
+    cursor: pointer;
+}
+
+.accordion__button>:hover {
+    cursor: pointer;
+    background-color: #cac3a4;
+}
+
+.icon-small {
+    width: 50px;
+}
+
+.day {
+    color: black;
+    flex: 1 1;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.description {
+    flex: 1 1;
+    margin-right: 15px;
+    text-align: right;
+}
+
+.min-max {
+    color: #757575;
+}
+
+.daily-details-grid {
+    grid-row-gap: 0;
+    grid-column-gap: 15px;
+    row-gap: 0;
+    column-gap: 15px;
+    display: grid;
+    flex: 1 1;
+    grid-template-columns: auto auto;
+    padding: 5px 15px;
+}
+
+.daily-details-grid-item {
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.daily-details-grid-item label:first-child {
+    font-weight: bold;
+    color: #EDEAE5;
+}
+
+.daily-details-grid-item label:last-child {
+    color: #EDEAE5;
+}
